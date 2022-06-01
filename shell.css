@@ -1,0 +1,31 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+body{
+    background: linear-gradient(black, black);
+    height: 100vh;
+    margin: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.display{
+    border: 1px solid black;
+    padding-right: 5%;
+    padding-left: 5%;
+    height: 100vh;
+    color: white;
+    padding-top: 3%;
+}
+
+.input{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+
+#command{
+    width: 100%;
+}
