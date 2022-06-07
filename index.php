@@ -18,7 +18,7 @@ session_start();
     <title>LOGIN</title>
 </head>
 
-<body>
+<body><br>
     <div class="center">
         <form action="authenticate.php" method="post">
             <h2>ENTER THE KEYS</h2>
@@ -28,6 +28,7 @@ session_start();
             <input type="submit" value="GET IN" class="btn btn-primary">
         </form>
     </div>
+    <br>
 </body>
 
 </html>

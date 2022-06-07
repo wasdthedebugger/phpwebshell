@@ -3,29 +3,48 @@
   }
 
 body{
-    background: linear-gradient(black, black);
-    height: 100vh;
+    background-color: rgb(31, 28, 28);
     margin: auto;
-    padding: 0;
-    width: 100%;
+    width: 80%;
+    border: 1px solid white;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 5%;
+    background-attachment: fixed;
 }
 
 .display{
-    border: 1px solid black;
-    padding-right: 5%;
-    padding-left: 5%;
-    height: 100vh;
+    background-color: black;
+    border-bottom: 1px solid white;
     color: white;
-    padding-top: 3%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-y: auto;
+    font-size: small;
 }
 
 .input{
-    width: 100%;
+    width: 80%;
     position: absolute;
     bottom: 0;
-    padding: 0;
+    text-align: justify;
+    border-bottom: 1px solid white;
 }
 
 #command{
     width: 100%;
 }
+
+::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }

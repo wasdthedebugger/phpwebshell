@@ -10,6 +10,7 @@ if (!isset($_SESSION['UID'])) {
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="shell.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,8 +20,6 @@ if (!isset($_SESSION['UID'])) {
 
 <body>
     <div class="main">
-    <div class="center">
-
         <div class="output">
             <?php
             $command = isset($_POST['command']) ? $_POST['command'] : 'CMD';
@@ -36,12 +35,10 @@ if (!isset($_SESSION['UID'])) {
 
         <div class="input">
             <form action="shell.php" method="POST">
-                <input type="text" name="command" id="command">
+                <input type="text" name="command" id="command" placeholder="COMMAND HERE" autocomplete="off" autofocus="on">
             </form>
         </div>
-
     </div>
     </div>
 </body>
-
 </html>
